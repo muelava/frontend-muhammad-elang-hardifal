@@ -2,6 +2,11 @@
 
 Aplikasi React untuk mengelola data negara, pelabuhan, dan barang dengan fitur auto-complete dan perhitungan otomatis.
 
+## 🖼️ Screenshot
+
+![Tampilan Utama Aplikasi](./screenshots/iPhone-12-PRO-localhost.png)  
+_Form utama dengan auto-complete negara, pelabuhan, dan barang_
+
 ## 🚀 Fitur
 
 - **Auto-complete Negara**: Memuat data negara dari API
