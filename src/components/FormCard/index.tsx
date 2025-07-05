@@ -255,13 +255,13 @@ const FormCard = () => {
         <div className="flex gap-4 pt-4">
           <button
             onClick={handleReset}
-            className="flex-1 px-6 py-3 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors duration-200 font-medium"
+            className="flex-1 px-6 py-3 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors duration-200 font-medium cursor-pointer"
           >
             Reset
           </button>
           <button
             onClick={() => window.location.reload()}
-            className="flex-1 px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-200 font-medium"
+            className="flex-1 px-6 py-3 bg-sky-500 text-white rounded-lg hover:bg-sky-600 transition-colors duration-200 font-medium cursor-pointer"
           >
             Refresh
           </button>

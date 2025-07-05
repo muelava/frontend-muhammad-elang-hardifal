@@ -24,14 +24,14 @@ Aplikasi React untuk mengelola data negara, pelabuhan, dan barang dengan fitur a
 ## 📋 Persyaratan
 
 - Node.js (versi 18 atau lebih baru)
-- npm atau yarn
+- pnpm, npm atau yarn
 
 ## 🚀 Instalasi
 
 1. Clone repository ini:
 
 ```bash
-git clone https://github.com/username/frontend-muhammad-elang-hardifal.git
+git clone https://github.com/muelava/frontend-muhammad-elang-hardifal.git
 cd frontend-muhammad-elang-hardifal
 ```
 
@@ -50,7 +50,7 @@ yarn install
 
 ```bash
 #pnpm
-pnpm run dev
+pnpm dev
 #npm
 npm run dev
 # atau
@@ -64,20 +64,21 @@ yarn dev
 ```
 src/
 ├── components/
-│   └── Header
-│       └── index.tsx.    #Komponen Header
-│   └── Footer
-│       └── index.tsx.    #Komponen Footer
-│   └── FormCard
-│       └── index.tsx.    #Komponen Form Card
-│   └── AutoComplete.tsx    # Komponen auto-complete reusable
+│   ├── Header/
+│   │   └── index.tsx          # Komponen Header
+│   ├── Footer/
+│   │   └── index.tsx          # Komponen Footer
+│   ├── FormCard/
+│   │   └── index.tsx          # Komponen Form Card
+│   ├── AutoComplete/
+│   └── index.tsx       # Komponen auto-complete reusable
 ├── services/
-│   ├── api.ts             # Konfigurasi Axios dengan interceptor
-│   └── apiService.ts      # Service untuk API calls
+│   ├── api.ts                 # Konfigurasi Axios dengan interceptor
+│   └── apiService.ts          # Service untuk API calls
 ├── types/
-│   └── index.ts           # TypeScript type definitions
-├── App.tsx                # Komponen utama aplikasi
-└── main.tsx               # Entry point aplikasi
+│   └── index.ts               # TypeScript type definitions
+├── App.tsx                    # Komponen utama aplikasi
+└── main.tsx                   # Entry point aplikasi
 ```
 
 ## 🔧 Konfigurasi API
@@ -127,7 +128,7 @@ Aplikasi mencakup:
 
 ```bash
 #pnpm
-npm run build
+pnpm build
 #npm
 npm run build
 # atau

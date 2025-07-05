@@ -1,1 +1,12 @@
 @import "tailwindcss";
+@import "@fontsource/poppins"; /* semua weight */
+@import "@fontsource/poppins/400.css"; /* regular */
+@import "@fontsource/poppins/700.css"; /* bold */
+
+:root {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
